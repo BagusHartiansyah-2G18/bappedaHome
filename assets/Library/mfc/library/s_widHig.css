@@ -1,0 +1,37 @@
+.mhight20{
+    min-height: 20px;
+  }
+  .mhight30{
+    min-height: 30px;
+  }
+  .mhight50{
+    min-height: 50px;
+  }
+  .mhight100{
+    min-height: 100px;
+  }
+  .mhight250{
+    min-height: 250px;
+  }
+  .mhight500{
+    min-height: 500px;
+  }
+  .mhight600{
+    min-height: 600px;
+  }
+  .mhight650{
+    min-height: 650px;
+  }
+  .mhight750{
+    min-height: 750px;
+  }
+  .mhight1000{
+    min-height: 1000px;
+  }
+  .mhight1250{
+    min-height: 1250px;
+  }
+  
+  .mhightFull{
+    height: 100%;
+  }
