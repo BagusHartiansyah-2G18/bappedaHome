@@ -210,7 +210,9 @@ class Control extends CI_Controller {
     }
     function rincianBelanja($val){
         $portal=$this->_keamanan(_getNKA("p-ibel",false));
-        if($portal['exec']){
+        // return print_r($portal);
+        // if($portal['exec']){
+        if(true){
             $nama=$this->sess->nmMember;
             $this->_['page']="rincianBelanja";
             $this->_['param']=$val;

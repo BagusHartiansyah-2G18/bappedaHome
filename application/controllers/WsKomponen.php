@@ -391,7 +391,6 @@ class WsKomponen extends CI_Controller {
         return print_r(json_encode($this->_));
     }  
     function rincianBelanja($page,$val){
-        
         $this->_=array_merge(
             $this->_,
             [
@@ -418,7 +417,7 @@ class WsKomponen extends CI_Controller {
         $kdSub   =$baseEND->{'kdSub'};
         $kdDinas   =$baseEND->{'kdDinas'};
         $tahapan   =$baseEND->{'tahapan'};
-        $tahapan   =4;
+        // $tahapan   =4;
         $this->_['tahapan']=$tahapan;
         $this->_['tahun']=$this->tahun;
         

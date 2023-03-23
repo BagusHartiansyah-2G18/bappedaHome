@@ -30,9 +30,9 @@ function _formData() {
     return `<div class="row m-2 shadow">`
                 +_formNoHeader({
                     shadow:false,
-                    cls:"",
+                    cls:"w-100 h-100",
                     id :"idContainer",
-                    style:`background-image:url('`+assert+`/fs_sistem/slider/1.jpg'); background-size: cover; min-height:600px`,
+                    style:`background-image:url('`+assert+`/fs_sistem/slider/1.jpg'); background-size: cover; min-height:600px; width: 100% !important;`,
                     kolom:[
                         {
                             size:"12",form:_form2()
