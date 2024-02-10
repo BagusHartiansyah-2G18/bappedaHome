@@ -28,8 +28,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 // // $data=json_decode($data);
 // // return print_r($data);
 // $config['base_url'] = $data->{'ip'}.'notaris/';
-$config['base_url'] = (isset($_SERVER['HTTPS']) ? "https://" : "http://"). $_SERVER['HTTP_HOST'].
+
+// $config['base_url'] = (isset($_SERVER['HTTPS']) ? "https://" : "http://"). $_SERVER['HTTP_HOST'].
+// 						str_replace(basename($_SERVER['SCRIPT_NAME']),"", $_SERVER['SCRIPT_NAME']);
+$config['base_url'] = 'https://bappedaksb.com/apps/';
 						str_replace(basename($_SERVER['SCRIPT_NAME']),"", $_SERVER['SCRIPT_NAME']);
+						
 // $config['base_url'] = 'http://localhost:8080/tapd/';
 
 /*
