@@ -1,0 +1,117 @@
+/* @import "./bootstrap-5.2.2/bootstrap-5.2.2/dist/css/bootstrap-grid.css";
+@import "./bootstrap-5.2.2/bootstrap-5.2.2/dist/css/bootstrap-grid.css.map";
+@import "./bootstrap-5.2.2/bootstrap-5.2.2/dist/css/bootstrap-grid.min.css";
+@import "./bootstrap-5.2.2/bootstrap-5.2.2/dist/css/bootstrap-grid.min.css.map";
+@import "./bootstrap-5.2.2/bootstrap-5.2.2/dist/css/bootstrap-grid.rtl.css";
+
+@import "./bootstrap-5.2.2/bootstrap-5.2.2/dist/css/bootstrap-grid.rtl.css.map";
+@import "./bootstrap-5.2.2/bootstrap-5.2.2/dist/css/bootstrap-grid.rtl.min.css";
+@import "./bootstrap-5.2.2/bootstrap-5.2.2/dist/css/bootstrap-grid.rtl.min.css.map";
+@import "./bootstrap-5.2.2/bootstrap-5.2.2/dist/css/bootstrap-reboot.css";
+@import "./bootstrap-5.2.2/bootstrap-5.2.2/dist/css/bootstrap-reboot.css.map";
+
+@import "./bootstrap-5.2.2/bootstrap-5.2.2/dist/css/bootstrap-reboot.min.css";
+@import "./bootstrap-5.2.2/bootstrap-5.2.2/dist/css/bootstrap-reboot.min.css.map";
+@import "./bootstrap-5.2.2/bootstrap-5.2.2/dist/css/bootstrap-reboot.rtl.css";
+@import "./bootstrap-5.2.2/bootstrap-5.2.2/dist/css/bootstrap-reboot.rtl.css.map";
+@import "./bootstrap-5.2.2/bootstrap-5.2.2/dist/css/bootstrap-reboot.rtl.min.css";
+
+@import "./bootstrap-5.2.2/bootstrap-5.2.2/dist/css/bootstrap-reboot.rtl.min.css.map";
+@import "./bootstrap-5.2.2/bootstrap-5.2.2/dist/css/bootstrap-utilities.css";
+@import "./bootstrap-5.2.2/bootstrap-5.2.2/dist/css/bootstrap-utilities.css.map";
+@import "./bootstrap-5.2.2/bootstrap-5.2.2/dist/css/bootstrap-utilities.min.css";
+@import "./bootstrap-5.2.2/bootstrap-5.2.2/dist/css/bootstrap-utilities.min.css.map";
+
+@import "./bootstrap-5.2.2/bootstrap-5.2.2/dist/css/bootstrap-utilities.rtl.css";
+@import "./bootstrap-5.2.2/bootstrap-5.2.2/dist/css/bootstrap-utilities.rtl.css.map";
+@import "./bootstrap-5.2.2/bootstrap-5.2.2/dist/css/bootstrap-utilities.rtl.min.css";
+@import "./bootstrap-5.2.2/bootstrap-5.2.2/dist/css/bootstrap-utilities.rtl.min.css.map";
+@import "./bootstrap-5.2.2/bootstrap-5.2.2/dist/css/bootstrap.css"; */
+
+/* @import "./bootstrap-5.2.2/bootstrap-5.2.2/dist/css/bootstrap.css.map"; */
+@import "./bootstrap-5.2.2/bootstrap-5.2.2/dist/css/bootstrap.min.css";
+/* @import "./bootstrap-5.2.2/bootstrap-5.2.2/dist/css/bootstrap.min.css.map"; */
+
+/* @import "./bootstrap-5.2.2/bootstrap-5.2.2/dist/css/bootstrap.rtl.css";
+@import "./bootstrap-5.2.2/bootstrap-5.2.2/dist/css/bootstrap.rtl.css.map";
+
+@import "./bootstrap-5.2.2/bootstrap-5.2.2/dist/css/bootstrap.rtl.min.css";
+@import "./bootstrap-5.2.2/bootstrap-5.2.2/dist/css/bootstrap.rtl.min.css.map"; */
+
+@import "./MaterialDesignIcons6/css/materialdesignicons.min.css";
+@import "./s_bg.css";
+@import "./s_opaAlfa.css";
+@import "./s_widHig.css";
+@import "./s_carousel.css";
+
+body{
+  font-family: "Sans-serif","Verdana","Helvetica"
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+.judulFunc{
+    text-transform: uppercase;
+}
+
+
+
+
+.pcard3{
+  padding:0px 12px 0px 0px !important;
+}
+/* .imgColorOpacity20{
+  background-color: rgba(10, 10, 10, 0.2);
+} */
